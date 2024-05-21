@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.container-left {
+    display: inline-block;
+    height: 100vh;
+    width: 60%;
+    margin-top: 381px;
+    padding-left: 136px;
+
+
+}
+
+.container-rigth {
+    display: inline-block;
+    background: rgba(93, 93, 125, 0.16);
+    height: 100vw;
+    position: absolute;
+    width: 40%;
+
+
+
+}
+
+img {
+    position: relative;
+    top: 216px;
+    right: 138px;
+    width: 456px;
+    height: 561.95px;
+
+}
+
+h1 {
+    width: 368px;
+    height: 183px;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #5D5D7D;
+    margin-bottom: 15px;
+
+
+}
+
+p {
+    width: 540px;
+    height: 184px;
+
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #5D5D7D;
+    Opacity: 60%;
+    margin: 15px 15px;
+
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35.57px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.3;
+    background: orange;
+}
+
+a {
+    margin-left: 41px;
+    color: #5D5D7D;
+    width: 59px;
+    height: 41px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 41.5px;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+#link-id {
+    opacity: 40%;
+}
+
+/* nesse caso usei uma id no link 
+mas poderia usar o exemplo a baixo, daria a mesma coisa ( nth-child().) */
+
+a:nth-child(2) {
+    opacity: 40%;
+}
+
+a:hover {
+    opacity: 0.5;
+    color: palevioletred;
+}
+
+a:active {
+    opacity: 0.8;
+    color: red;
+}
+
+header {
+    margin-top: 24px;
+    margin-left: 57px;
+}
+
+@media screen and (max-width:1364px) {
+
+    .container-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        display: block;
+
+        top: 58px;
+        left: 54px;
+
+    }
+
+    .container-rigth {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        position: static;
+        padding: 40px;
+
+    }
+
+    img {
+        position: static;
+        width: 88%;
+
+
+
+
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        width: auto;
+        height: 104px;
+        top: 58px;
+        left: 54px;
+
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 52px;
+        text-align: center;
+        margin:58px 50px 0 50px;
+
+    }
+
+    p {
+       margin: 15px 40px;
+       width: auto;
+       text-align: center;
+       font-size: 14px;
+       line-height: 24px;
+    }
+
+    button {
+        width: 269px;
+        height: 62px;
+        top: 288px;
+        left: 54px;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+
+
+}
